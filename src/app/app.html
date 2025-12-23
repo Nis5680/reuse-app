@@ -1,6 +1,7 @@
 <h1>Reuse Component App</h1>
 @for(u of users; track u){
   <div>
-    {{u}}
+    <!-- {{u}} -->
+    <app-user [u]="u"></app-user>
   </div>
 }
